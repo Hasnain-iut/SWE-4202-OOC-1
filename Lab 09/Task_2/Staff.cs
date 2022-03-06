@@ -10,14 +10,10 @@ namespace Task_2
     {
         public int code;
         public string name;
-        
-        Teacher teacher;
+
       
-        public Staff()
-        {
-            teacher = new Teacher();
-        }
-        public string whoAmI()
+     
+        public string whoAmI(Teacher teacher)
         {
             string info = teacher.getInfo() + "-staff";
             return info; 

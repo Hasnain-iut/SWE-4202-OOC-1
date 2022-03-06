@@ -6,7 +6,8 @@ namespace Task_2
         public static void Main(String[] args)
         {
             Staff staff = new Staff();
-            Console.WriteLine(staff.whoAmI());
+            Teacher teacher = new Teacher();
+            Console.WriteLine(staff.whoAmI(teacher));
         }
     }
 }

@@ -10,10 +10,10 @@ namespace Task_2
     {
         public string subject;
         public string publication;
-        public string type = "Teacher";
+        
         public string getInfo()
         {
-            string info = type;
+            string info = "Teacher";
             return info;
         }
     }
