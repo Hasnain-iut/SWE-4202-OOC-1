@@ -79,10 +79,12 @@ namespace TicTacToe
             player_move = true;
         }
 
-        private void computers_move()
+
+
+        private async void computers_move()
         {
             move_label.Text = "Computer's move";
-            
+            await Task.Delay(1000);
             Random rnd = new Random();
             
             for (int i = 0; i < 9; i++)
