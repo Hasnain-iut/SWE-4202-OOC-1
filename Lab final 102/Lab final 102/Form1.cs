@@ -28,7 +28,7 @@ namespace Lab_final_102
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            using (var reader = new StreamReader(@"C:\Users\CSE\Desktop\200042102_OOC\Lab final 102\MarkSheet.csv"))
+            using (var reader = new StreamReader(@"F:\IUT\CSE 4201 OOC\OOC-projects\Lab final 102\MarkSheet.csv"))
             {
                 
                 while (!reader.EndOfStream)
